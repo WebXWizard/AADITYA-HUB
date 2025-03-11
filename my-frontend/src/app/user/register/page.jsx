@@ -172,7 +172,7 @@ const Register = () => {
 
                   <div className="flex items-center justify-center mt-4">
                     <button className="flex items-center justify-center w-full px-4 py-3 mx-2 text-lg font-medium text-white transition-colors duration-300 transform bg-blue-600 rounded-xl hover:bg-blue-400 focus:bg-blue-400 focus:outline-none">
-                      Sign up
+                      Register Now
                     </button>
                   </div>
                 </form>
@@ -225,7 +225,8 @@ const Register = () => {
         </div>
       </div>
       
-      <footer className="flex  flex-col space-y-10 justify-center m-10 font-[sans-serif]">
+       {/* Footer Section */}
+       <footer className="flex  flex-col space-y-10 justify-center m-10 font-[sans-serif]">
         <nav className="flex justify-center flex-wrap gap-6 text-gray-500 font-semibold text-lg">
           <a className="hover:text-gray-900" href="/">
             Home

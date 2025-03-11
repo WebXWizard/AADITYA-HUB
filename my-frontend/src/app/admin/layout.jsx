@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
           <Sidebar />
 
           {/* Main Content (Pushes Right) */}
-          <div className="flex-1 ml-60 p-6">
+          <div className="flex-1 lg:ml-60 p-6">
             {children}
           </div>
         </div>

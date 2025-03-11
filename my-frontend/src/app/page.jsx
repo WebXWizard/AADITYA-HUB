@@ -1148,20 +1148,20 @@ const Page = () => {
         </div>
       </section>
 
-      {/* Footer Section */}
-      <footer className="mt-auto bg-indigo-100  w-full max-w-[90rem] py-10 px-4 sm:px-6 lg:px-12 mx-auto font-[sans-serif]">
+    {/* Footer Section */}
+    <footer className="mt-auto bg-indigo-100  w-full max-w-[90rem] py-10 px-4 sm:px-6 lg:px-12 mx-auto font-[sans-serif]">
         {/* Grid */}
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
           <div className="col-span-full hidden lg:col-span-1 lg:block">
             <a href="/" className="flex items-center space-x-3">
               <img
                 src="../images/Doc1.png"
-                className="w-28 h-24 lg:ml-20"
+                className="w-28 h-24 ml-0 lg:ml-20"
                 alt="Logo"
               />
             </a>
 
-            <p className="font-bold text-2xl text-center">
+            <p className="text-gray-600 text-2xl text-center">
               Aadityaa Computer's &amp; Digital Hub
             </p>
           </div>
@@ -1171,7 +1171,7 @@ const Page = () => {
             <h4 className="text-lg font-bold text-gray-900 uppercase dark:text-neutral-100 ">
               Company
             </h4>
-            <div className="mt-3 grid space-y-2 text-md font-semibold">
+            <div className="mt-3 grid space-y-2 text-lg">
               <p>
                 <a
                   className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
@@ -1212,11 +1212,11 @@ const Page = () => {
             <h4 className="text-lg font-bold text-gray-900 uppercase dark:text-neutral-100">
               Our Courses
             </h4>
-            <div className="mt-3 grid space-y-3 text-md font-semibold">
+            <div className="mt-3 grid space-y-3 text-lg">
               <p>
                 <a
                   className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
-                  href="#"
+                  href="/user/courses"
                 >
                   NIELIT Courses
                 </a>
@@ -1224,7 +1224,7 @@ const Page = () => {
               <p>
                 <a
                   className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
-                  href="#"
+                  href="/user/courses"
                 >
                   Web Development
                 </a>
@@ -1232,7 +1232,7 @@ const Page = () => {
               <p>
                 <a
                   className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
-                  href="#"
+                  href="/user/courses"
                 >
                   Digital Marketing
                 </a>
@@ -1252,44 +1252,44 @@ const Page = () => {
             <h4 className="text-lg font-bold text-gray-900 uppercase dark:text-neutral-100">
               Contact Us
             </h4>
-            <div className="mt-3 grid space-y-3 text-md font-semibold">
-              <p>
-                <a
+            <div className="mt-3 grid space-y-3 text-lg">
+              <h1>
+                <p
                   className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
                   href="#"
                 >
                   <span className="md:block hidden">📧</span>{" "}
                   aadityaacomputer9@gmail.com
-                </a>
-              </p>
-              <p>
-                <a
+                </p>
+              </h1>
+              <h1>
+                <p
                   className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
                   href="#"
                 >
                   <img
                     src="https://www.svgrepo.com/show/452133/whatsapp.svg"
-                    width={30}
-                    height={30}
+                    width={25}
+                    height={25}
                     alt="tw"
                   />
                   +91 7985810921 / 8090068623
-                </a>
-              </p>
-              <p>
-                <a
+                </p>
+              </h1>
+              <h1>
+                <p
                   className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
                   href="/user/courses"
                 >
-                  🕘 Mon-Sat: 8 AM - 7 PM
-                </a>
-              </p>
+                  🕘 : Mon-Sat: 8 AM - 7 PM
+                </p>
+              </h1>
             </div>
           </div>
         </div>
         <hr className="my-6 border-gray-200 md:my-8 dark:border-gray-700 h-2" />
 
-        <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500 text-lg">
+        <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500 text-lg">
           📍 J S Complex, Dewa Road, near Ramswaroop University,
           Barabanki-225003
         </p>
@@ -1309,9 +1309,9 @@ const Page = () => {
         <div className="pt-5 border-t border-gray-200 dark:border-neutral-700">
           <div className="sm:flex sm:justify-between sm:items-center">
             <div className="flex flex-wrap items-center gap-3">
-              <div className="space-x-4 text-md font-bold mb-2">
+              <div className="space-x-4 text-lg text-center mb-2">
                 <a
-                  className="inline-flex gap-x-2 text-gray-600 ml-54 hover:text-gray-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500 text-lg"
                   href="#"
                 >
                   © 2025 Aadityaa Computer's & Digital Hub Center, All rights

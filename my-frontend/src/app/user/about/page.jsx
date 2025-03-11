@@ -153,7 +153,7 @@ const About = () => {
             <div className="text-center text-gray-500 dark:text-gray-400">
               <img
                 className="mx-auto mb-4 w-auto h-60 rounded-xl"
-                src="../images/Nj.jpeg"
+                src="../images/Nj.jpg"
                 alt="Joseph Avatar"
               />
               <h3 className="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
@@ -534,126 +534,214 @@ const About = () => {
       </div>
 
       {/* Footer Section */}
-      <footer className="bg-blue-100/80 font-[sans-serif] dark:bg-gray-900">
-        <div className="container px-6 py-12 mx-auto">
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
-            <div className="sm:col-span-2">
-              <h1 className="max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl dark:text-white">
-                Subscribe our newsletter to get an update.
-              </h1>
-              <div className="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row">
-                <input
-                  id="email"
-                  type="text"
-                  className="px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"
-                  placeholder="Email Address"
-                />
-                <button className="w-full px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
-                  Subscribe
-                </button>
-              </div>
-            </div>
-            <div>
-              <p className="font-semibold text-gray-800 dark:text-white text-md lg:text-xl">
-                Quick Link
-              </p>
-              <div className="flex flex-col items-start mt-5 space-y-2 lg:text-lg">
+      <footer className="mt-auto bg-indigo-100  w-full max-w-[90rem] py-10 px-4 sm:px-6 lg:px-12 mx-auto font-[sans-serif]">
+        {/* Grid */}
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
+          <div className="col-span-full hidden lg:col-span-1 lg:block">
+            <a href="/" className="flex items-center space-x-3">
+              <img
+                src="../images/Doc1.png"
+                className="w-28 h-24 ml-0 lg:ml-20"
+                alt="Logo"
+              />
+            </a>
+
+            <p className="text-gray-600 text-2xl text-center">
+              Aadityaa Computer's &amp; Digital Hub
+            </p>
+          </div>
+          {/* End Col */}
+
+          <div>
+            <h4 className="text-lg font-bold text-gray-900 uppercase dark:text-neutral-100 ">
+              Company
+            </h4>
+            <div className="mt-3 grid space-y-2 text-lg">
+              <p>
                 <a
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
                   href="/"
-                  className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500"
                 >
                   Home
                 </a>
+              </p>
+              <p>
                 <a
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
                   href="/user/about"
-                  className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500"
                 >
                   About Us
                 </a>
-                <a
-                  href="/user/courses"
-                  className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500"
-                >
-                  Our Courses
-                </a>
-                <a
-                  href="/user/gallery"
-                  className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500"
-                >
-                  Gallery
-                </a>
-              </div>
-            </div>
-            <div>
-              <p className="font-semibold text-md lg:text-xl text-gray-800 dark:text-white ">
-                Contact Us
               </p>
-              <div className="flex flex-col items-start mt-5 space-y-2 lg:text-lg">
-                <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">
-                  📧 aadityaacomputer9@gmail.com
+
+              <p>
+                <a
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  href="/user/courses"
+                >
+                  Our Certified Courses
+                </a>
+              </p>
+              <p>
+                <a
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  href="/user/contact"
+                >
+                  Send Query
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-lg font-bold text-gray-900 uppercase dark:text-neutral-100">
+              Our Courses
+            </h4>
+            <div className="mt-3 grid space-y-3 text-lg">
+              <p>
+                <a
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  href="/user/courses"
+                >
+                  NIELIT Courses
+                </a>
+              </p>
+              <p>
+                <a
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  href="/user/courses"
+                >
+                  Web Development
+                </a>
+              </p>
+              <p>
+                <a
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  href="/user/courses"
+                >
+                  Digital Marketing
+                </a>
+              </p>
+              <p>
+                <a
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  href="/user/courses"
+                >
+                  Programming Courses
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-lg font-bold text-gray-900 uppercase dark:text-neutral-100">
+              Contact Us
+            </h4>
+            <div className="mt-3 grid space-y-3 text-lg">
+              <h1>
+                <p
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  href="#"
+                >
+                  <span className="md:block hidden">📧</span>{" "}
+                  aadityaacomputer9@gmail.com
                 </p>
-                <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">
-                  📞+91 79858 10921 / 80900 68623
+              </h1>
+              <h1>
+                <p
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  href="#"
+                >
+                  <img
+                    src="https://www.svgrepo.com/show/452133/whatsapp.svg"
+                    width={25}
+                    height={25}
+                    alt="tw"
+                  />
+                  +91 7985810921 / 8090068623
                 </p>
-                <div className="flex gap-4 hover:cursor-pointer mt-8">
-                  <a href="https://www.facebook.com/aadityaacomputerl1">
-                    {" "}
-                    <img
-                      src="https://www.svgrepo.com/show/303114/facebook-3-logo.svg"
-                      width={30}
-                      height={30}
-                      alt="fb"
-                    />
-                  </a>
-                  <a href="https://whatsapp.com/channel/0029Vb9111MDOQIeLgyR6n3x">
-                    <img
-                      src="https://www.svgrepo.com/show/452133/whatsapp.svg"
-                      width={30}
-                      height={30}
-                      alt="tw"
-                    />
-                  </a>
-                  <a href="https://www.instagram.com/aadityaacomputerl1/?hl=en">
-                    <img
-                      src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg"
-                      width={30}
-                      height={30}
-                      alt="inst"
-                    />
-                  </a>
-                  <a href="https://www.youtube.com/@AADITYAACOMPUTER9">
-                    <img
-                      src="https://www.svgrepo.com/show/452138/youtube.svg"
-                      className=""
-                      width={30}
-                      height={30}
-                      alt="gt"
-                    />
-                  </a>
-                </div>
+              </h1>
+              <h1>
+                <p
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  href="/user/courses"
+                >
+                  🕘 : Mon-Sat: 8 AM - 7 PM
+                </p>
+              </h1>
+            </div>
+          </div>
+        </div>
+        <hr className="my-6 border-gray-200 md:my-8 dark:border-gray-700 h-2" />
+
+        <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500 text-lg">
+          📍 J S Complex, Dewa Road, near Ramswaroop University,
+          Barabanki-225003
+        </p>
+
+        <div className="sm:flex sm:items-center sm:justify-between">
+          <div className="flex flex-1 gap-4 hover:cursor-pointer">
+            <iframe
+              className="w-full h-72 mt-2 rounded-xl"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.4479533319795!2d81.09969077544089!3d26.952710249665355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25bb50747be4f5a1%3A0xa79d292d913da320!2saadityaa%20computers%20%26%20digital%20hub!5e0!3m2!1sen!2sin!4v1741076159237!5m2!1sen!2sin"
+              // allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+
+        {/* Copyright and Social Media Section */}
+        <div className="pt-5 border-t border-gray-200 dark:border-neutral-700">
+          <div className="sm:flex sm:justify-between sm:items-center">
+            <div className="flex flex-wrap items-center gap-3">
+              <div className="space-x-4 text-lg text-center mb-2">
+                <a
+                  className="inline-flex gap-x-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500 text-lg"
+                  href="#"
+                >
+                  © 2025 Aadityaa Computer's & Digital Hub Center, All rights
+                  reserved.
+                </a>
               </div>
             </div>
           </div>
-          <hr className="my-6 border-gray-200 md:my-8 dark:border-gray-700 h-2" />
 
-          <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500 text-lg">
-            📍 J S Complex, Dewa Road, near Ramswaroop University,
-            Barabanki-225003
-          </p>
-
-          <div className="sm:flex sm:items-center sm:justify-between">
-            <div className="flex flex-1 gap-4 hover:cursor-pointer">
-              <iframe
-                className="w-full h-72 mt-2 rounded-xl"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.4479533319795!2d81.09969077544089!3d26.952710249665355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25bb50747be4f5a1%3A0xa79d292d913da320!2saadityaa%20computers%20%26%20digital%20hub!5e0!3m2!1sen!2sin!4v1741076159237!5m2!1sen!2sin"
-                // allowfullscreen=""
-                loading="lazy"
-              ></iframe>
-            </div>
+          <div className="flex gap-4 hover:cursor-pointer mt-8">
+            <a href="https://www.facebook.com/aadityaacomputerl1">
+              {" "}
+              <img
+                src="https://www.svgrepo.com/show/303114/facebook-3-logo.svg"
+                width={30}
+                height={30}
+                alt="fb"
+              />
+            </a>
+            <a href="https://whatsapp.com/channel/0029Vb9111MDOQIeLgyR6n3x">
+              <img
+                src="https://www.svgrepo.com/show/452133/whatsapp.svg"
+                width={30}
+                height={30}
+                alt="tw"
+              />
+            </a>
+            <a href="https://www.instagram.com/aadityaacomputerl1/?hl=en">
+              <img
+                src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg"
+                width={30}
+                height={30}
+                alt="inst"
+              />
+            </a>
+            <a href="https://www.youtube.com/@AADITYAACOMPUTER9">
+              <img
+                src="https://www.svgrepo.com/show/452138/youtube.svg"
+                className=""
+                width={30}
+                height={30}
+                alt="gt"
+              />
+            </a>
           </div>
-          <p className="font-[sans-serif] p-8 text-start md:text-center md:text-lg text-xl md:p-4">
-            © 2025 Aaditya Computer's and Digital Hub. All rights reserved.
-          </p>
         </div>
       </footer>
     </div>

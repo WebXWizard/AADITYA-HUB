@@ -38,11 +38,11 @@ const ManageUser = () => {
   const [userList, setUserList] = useState([]);
 
   return (
-    <div className="bg-gray-200 rounded-xl font-[sans-serif] ml-4">
-      <div className=" lg:max-w-[100%] mx-auto py-10 ">
-        <div className="border rounded-xl shadow-lg p-8 bg-cyan-200  ">
+    <div className="bg-gray-200 rounded-xl font-[sans-serif]">
+      <div className=" lg:max-w-[100%] mx-auto  ">
+        <div className="border rounded-xl shadow-lg p-8 bg-cyan-200 ml-4 ">
           <h1 className="text-center font-bold text-4xl font-[sans-serif]">
-            Manage User
+            Manage Query
           </h1>
           {/* <hr/> */}
 
@@ -52,8 +52,8 @@ const ManageUser = () => {
                 <th className="p-2 border border-white">ID</th>
                 <th className="p-2 border border-white">NAME</th>
                 <th className="p-2 border border-white">EMAIL</th>
-                <th className="p-2 border border-white">Query</th>
-                <th colSpan={2}>ACTIONS</th>
+                <th className="p-2 border border-white">PHONE</th>
+                <th colSpan={2}>QUERY</th>
               </tr>
             </thead>
 
@@ -64,10 +64,11 @@ const ManageUser = () => {
                     <td className="p-2 border via-violet-300">{user._id} </td>
                     <td className="p-2 border via-violet-300">{user.name} </td>
                     <td className="p-2 border via-violet-300">{user.email} </td>
+                    <td className="p-2 border via-violet-300">{user.phone} </td>
                     <td className="p-2 border via-violet-300">
                       {user.details}
                     </td>
-                    <td
+                    {/* <td
                       onClick={() => deleteUser(user._id)}
                       className="p-2 border via-violet-300"
                     >
@@ -82,7 +83,7 @@ const ManageUser = () => {
                       >
                         Update
                       </Link>
-                    </td>
+                    </td> */}
                   </tr>
                 );
               })}

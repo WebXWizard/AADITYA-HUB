@@ -66,8 +66,8 @@ const DigitalMarketing = () => {
         </div>
       </div>
 
-      {/* Footer Section */}
-      <footer className="flex  flex-col space-y-10 justify-center m-10 font-[sans-serif]">
+    {/* Footer Section */}
+    <footer className="flex  flex-col space-y-10 justify-center m-10 font-[sans-serif]">
         <nav className="flex justify-center flex-wrap gap-6 text-gray-500 font-semibold text-lg">
           <a className="hover:text-gray-900" href="/">
             Home

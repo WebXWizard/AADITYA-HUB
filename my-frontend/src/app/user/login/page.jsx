@@ -254,6 +254,69 @@ const Login = () => {
         </div>
         {/* End Hero */}
       </>
+
+        {/* Footer Section */}
+        <footer className="flex  flex-col space-y-10 justify-center m-10 font-[sans-serif]">
+        <nav className="flex justify-center flex-wrap gap-6 text-gray-500 font-semibold text-lg">
+          <a className="hover:text-gray-900" href="/">
+            Home
+          </a>
+          <a className="hover:text-gray-900" href="/user/about">
+            About
+          </a>
+          <a className="hover:text-gray-900" href="/user/courses">
+            Courses
+          </a>
+          <a className="hover:text-gray-900" href="/user/register">
+            Register
+          </a>
+          <a className="hover:text-gray-900" href="/user/gallery">
+            Gallery
+          </a>
+          <a className="hover:text-gray-900" href="/user/contact">
+            Contact
+          </a>
+        </nav>
+        <div className="flex justify-center gap-8 hover:cursor-pointer mt-8">
+          <a href="https://www.facebook.com/aadityaacomputerl1">
+            {" "}
+            <img
+              src="https://www.svgrepo.com/show/303114/facebook-3-logo.svg"
+              width={30}
+              height={30}
+              alt="fb"
+            />
+          </a>
+          <a href="https://whatsapp.com/channel/0029Vb9111MDOQIeLgyR6n3x">
+            <img
+              src="https://www.svgrepo.com/show/452133/whatsapp.svg"
+              width={30}
+              height={30}
+              alt="tw"
+            />
+          </a>
+          <a href="https://www.instagram.com/aadityaacomputerl1/?hl=en">
+            <img
+              src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg"
+              width={30}
+              height={30}
+              alt="inst"
+            />
+          </a>
+          <a href="https://www.youtube.com/@AADITYAACOMPUTER9">
+            <img
+              src="https://www.svgrepo.com/show/452138/youtube.svg"
+              className=""
+              width={30}
+              height={30}
+              alt="gt"
+            />
+          </a>
+        </div>
+        <p className="text-center text-gray-700 text-lg font-semibold">
+          © 2025 Aadityaa Computer's & Digital Hub. All rights reservered.
+        </p>
+      </footer>
     </div>
   );
 };

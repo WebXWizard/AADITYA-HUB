@@ -39,7 +39,7 @@ const ManageUser = () => {
 
   return (
     <div className="bg-gray-200 rounded-xl font-[sans-serif] ml-4">
-      <div className=" lg:max-w-[100%] mx-auto  ">
+      <div className=" lg:max-w-[95%] mx-auto  ">
         <div className="border rounded-xl shadow-lg p-8 bg-cyan-200  ">
           <h1 className="text-center font-bold text-4xl font-[sans-serif]">
             Manage User
@@ -63,14 +63,8 @@ const ManageUser = () => {
                   <tr key={user._id}>
                     <td className="p-2 border via-violet-300">{user._id} </td>
                     <td className="p-2 border via-violet-300">{user.name} </td>
-                    <td className="p-2 border via-violet-300">
-                      {user.email}
-                     {" "}
-                    </td>
-                    <td className="p-2 border via-violet-300">
-                      {user.phone}
-                     {" "}
-                    </td>
+                    <td className="p-2 border via-violet-300">{user.email} </td>
+                    <td className="p-2 border via-violet-300">{user.phone} </td>
                     <td className="p-2 border via-violet-300">
                       {user.category}
                     </td>
