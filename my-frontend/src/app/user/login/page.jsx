@@ -49,7 +49,7 @@ const Login = () => {
     <div>
       <>
         {/* Hero */}
-        <div className="relative bg-indigo-100 rounded-lg font-[sans-serif]">
+        <div className="relative rounded-lg font-[sans-serif]">
           <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
             {/* Grid */}
             <div className="grid items-center md:grid-cols-2 gap-8 lg:gap-12">
@@ -118,16 +118,16 @@ const Login = () => {
               </div>
               {/* End Col */}
 
-              <div className="w-full max-w-sm mx-auto overflow-hidden  rounded-2xl shadow-md bg-gray-100">
-                <div className="px-8 py-12">
+              <div className="w-full max-w-sm mx-auto overflow-hidden  rounded-2xl shadow-md bg-gray-200">
+                <div className="px-8 py-4">
                   <div className="flex justify-center mx-auto">
                     <img
-                      className="w-auto h-7 sm:h-8"
-                      src="https://merakiui.com/images/logo.svg"
+                      className="w-auto h-16"
+                      src="../images/Doc1.png"
                       alt=""
                     />
                   </div>
-                  <h3 className="mt-3 text-3xl font-medium text-center text-gray-600 dark:text-gray-200">
+                  <h3 className=" text-3xl font-medium text-center text-gray-600 dark:text-gray-200">
                     Welcome Back
                   </h3>
                   <div className="mt-6 justify-between">
@@ -148,7 +148,7 @@ const Login = () => {
                           />
                         </svg>
                         <a className="mx-2 text-lg" href="/user/login">
-                          Worker
+                          Admin
                         </a>
                       </button>
                       <button className="flex justify-center w-full px-6 py-3 mt-4 text-blue-500 border border-blue-500 rounded-lg md:mt-0 md:w-auto md:mx-2 dark:border-blue-400 dark:text-blue-400 focus:outline-none">
@@ -166,8 +166,8 @@ const Login = () => {
                             d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
                           />
                         </svg>
-                        <a className="mx-2 text-lg" href="/user/signup">
-                          Client
+                        <a className="mx-2 text-lg" href="/user/register">
+                          User
                         </a>
                       </button>
                     </div>
@@ -209,7 +209,15 @@ const Login = () => {
                         value={loginForm.values.password}
                       />
                     </div>
-
+                    <p className="mt-2 text-md text-gray-600 text-end">
+                      {/* I agree all your<span> </span> */}
+                      <a
+                        href="/user/forget-password"
+                        className=" text-indigo-500 border-dotted font-semibold"
+                      >
+                        Forget Password
+                      </a>
+                    </p>
                     <div className="flex items-center justify-center mt-4">
                       <button className="px-6 w-full py-2 text-lg font-bold tracking-wide text-white capitalize transition-colors duration-300 transform bg-sky-400 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                         Sign In
@@ -255,8 +263,8 @@ const Login = () => {
         {/* End Hero */}
       </>
 
-        {/* Footer Section */}
-        <footer className="flex  flex-col space-y-10 justify-center m-10 font-[sans-serif]">
+      {/* Footer Section */}
+      <footer className="flex  flex-col space-y-10 justify-center m-10 font-[sans-serif]">
         <nav className="flex justify-center flex-wrap gap-6 text-gray-500 font-semibold text-lg">
           <a className="hover:text-gray-900" href="/">
             Home

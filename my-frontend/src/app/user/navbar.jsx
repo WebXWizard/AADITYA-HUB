@@ -4,7 +4,6 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-
       {/* Shows on Every Page */}
 
       {/* Top Navbar */}
@@ -14,11 +13,12 @@ const Navbar = () => {
           role="alert"
         >
           <span className="flex rounded-full bg-indigo-500  px-2 py-1 text-xs font-bold mr-3">
-            <span className="md:block hidden"> 📧 </span>{" "} aadityaacomputer9@gmail.com
+            <span className="md:block hidden"> 📧 </span>{" "}
+            aadityaacomputer9@gmail.com
           </span>
           <span className="font-semibold mr-2 text-xs text-left flex-auto">
-            📞 +91 7985810921 / 8090068623 📍 J S Complex, Dewa Road, near Ramswaroop University,
-            Barabanki-225003
+            📞 +91 7985810921 / 8090068623 📍 J S Complex, Dewa Road, near
+            Ramswaroop University, Barabanki-225003
           </span>
           <svg
             className="fill-current opacity-75 h-4 w-4"
@@ -65,7 +65,7 @@ const Navbar = () => {
                     height={11}
                     rx={2}
                     stroke="currentColor"
-                  // strokeWidth="1.5"
+                    // strokeWidth="1.5"
                   />
                   {/* Door */}
                   <rect
@@ -75,7 +75,7 @@ const Navbar = () => {
                     height={6}
                     rx={1}
                     stroke="currentColor"
-                  // strokeWidth="1.5"
+                    // strokeWidth="1.5"
                   />
                 </svg>
 
@@ -140,7 +140,6 @@ const Navbar = () => {
                   <path d="M12 15l3 2-3 2v-4z" />
                 </svg>
 
-
                 <a href="/user/courses" className="flex items-center">
                   Our Courses
                 </a>
@@ -196,10 +195,17 @@ const Navbar = () => {
           <div className="items-center hidden gap-x-2 lg:flex">
             <a
               href="/user/register"
-              className="rounded-xl bg-slate-500 py-2 px-4 border border-transparent text-center text-md text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none font-bold"
+              className="rounded-xl bg-slate-700 py-2 px-4 border border-transparent text-center text-md text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-blue-500 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none font-bold"
               type="button"
             >
               Get Started
+            </a>
+            <a
+              href="/user/login"
+              className="rounded-xl bg-blue-500 py-2 px-4 border border-transparent text-center text-md text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none font-bold"
+              type="button"
+            >
+              Login
             </a>
           </div>
           <button
@@ -224,7 +230,6 @@ const Navbar = () => {
           </button>
         </div>
       </nav>
-
     </div>
   );
 };

@@ -197,10 +197,17 @@ const Page = () => {
           <div className="items-center hidden gap-x-2 lg:flex">
             <a
               href="/user/register"
-              className="rounded-xl bg-slate-500 py-2 px-4 border border-transparent text-center text-md text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none font-bold"
+              className="rounded-xl bg-slate-700 py-2 px-4 border border-transparent text-center text-md text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-blue-500 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none font-bold"
               type="button"
             >
               Get Started
+            </a>
+            <a
+              href="/user/login"
+              className="rounded-xl bg-blue-500 py-2 px-4 border border-transparent text-center text-md text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none font-bold"
+              type="button"
+            >
+              Login
             </a>
           </div>
           <button
@@ -1148,8 +1155,8 @@ const Page = () => {
         </div>
       </section>
 
-    {/* Footer Section */}
-    <footer className="mt-auto bg-indigo-100  w-full max-w-[90rem] py-10 px-4 sm:px-6 lg:px-12 mx-auto font-[sans-serif]">
+      {/* Footer Section */}
+      <footer className="mt-auto bg-indigo-100  w-full max-w-[90rem] py-10 px-4 sm:px-6 lg:px-12 mx-auto font-[sans-serif]">
         {/* Grid */}
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
           <div className="col-span-full hidden lg:col-span-1 lg:block">

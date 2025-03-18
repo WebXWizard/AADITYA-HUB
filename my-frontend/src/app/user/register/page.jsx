@@ -67,8 +67,8 @@ const Register = () => {
             <div className="w-full max-w-sm mx-auto overflow-hidden bg-white rounded-2xl shadow-md dark:bg-gray-800 font-[sans-serif]">
               <div className="px-8 py-8">
                 <div className="flex justify-center mx-auto">
-                  <h3 className="mt-0 text-2xl lg:text-3xl font-semibold text-center text-indigo-600 dark:text-gray-200">
-                    Register Now
+                  <h3 className="mt-0 text-2xl lg:text-3xl font-bold text-center text-indigo-600 dark:text-gray-200">
+                    Create Your Account
                   </h3>
                 </div>
                 <div className="mt-6 justify-between"></div>
@@ -171,10 +171,19 @@ const Register = () => {
                   </div>
 
                   <div className="flex items-center justify-center mt-4">
-                    <button className="flex items-center justify-center w-full px-4 py-3 mx-2 text-lg font-medium text-white transition-colors duration-300 transform bg-blue-600 rounded-xl hover:bg-blue-400 focus:bg-blue-400 focus:outline-none">
-                      Register Now
+                    <button className="flex items-center justify-center w-full px-3 py-2 mx-2 text-lg font-medium text-white transition-colors duration-300 transform bg-blue-600 rounded-xl hover:bg-blue-400 focus:bg-blue-400 focus:outline-none">
+                      SignUp Now
                     </button>
                   </div>
+                  <p className="text-md md:text-md font-light text-gray-600 dark:text-gray-400 p-2 font-[sans-serif]">
+                    Already have an account?{" "}
+                    <a
+                      href="/user/login"
+                      className="font-md font-semibold text-blue-600 hover:text-violet-800 dark:text-primary-500"
+                    >
+                      Login here
+                    </a>
+                  </p>
                 </form>
               </div>
             </div>
@@ -224,9 +233,9 @@ const Register = () => {
           </div>
         </div>
       </div>
-      
-       {/* Footer Section */}
-       <footer className="flex  flex-col space-y-10 justify-center m-10 font-[sans-serif]">
+
+      {/* Footer Section */}
+      <footer className="flex  flex-col space-y-10 justify-center m-10 font-[sans-serif]">
         <nav className="flex justify-center flex-wrap gap-6 text-gray-500 font-semibold text-lg">
           <a className="hover:text-gray-900" href="/">
             Home
