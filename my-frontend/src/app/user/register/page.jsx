@@ -49,7 +49,7 @@ const Register = () => {
           console.log(response.status);
           resetForm();
           toast.success("User Added Successfully");
-          router.push("/");
+          router.push("/user/login");
         })
         .catch((err) => {
           console.log(err);

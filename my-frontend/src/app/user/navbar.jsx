@@ -1,7 +1,11 @@
+"use client";
 import React from "react";
-// import Image from "next/image";
+import Link from "next/link";
+// import useAppContext from "@/context/appContext";
 
 const Navbar = () => {
+  // const { loggedIn, logout } = useAppContext();
+
   return (
     <div>
       {/* Shows on Every Page */}
@@ -192,22 +196,25 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="items-center hidden gap-x-2 lg:flex">
-            <a
-              href="/user/register"
-              className="rounded-xl bg-slate-700 py-2 px-4 border border-transparent text-center text-md text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-blue-500 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none font-bold"
-              type="button"
-            >
-              Get Started
-            </a>
-            <a
-              href="/user/login"
-              className="rounded-xl bg-blue-500 py-2 px-4 border border-transparent text-center text-md text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none font-bold"
-              type="button"
-            >
-              Login
-            </a>
-          </div>
+        
+            <div className="items-center hidden gap-x-2 lg:flex">
+              <a
+                href="/user/register"
+                className="rounded-xl bg-slate-700 py-2 px-4 border border-transparent text-center text-md text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-blue-500 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none font-bold"
+                type="button"
+              >
+                Get Started
+              </a>
+              <a
+                href="/user/login"
+                className="rounded-xl bg-blue-500 py-2 px-4 border border-transparent text-center text-md text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none font-bold"
+                type="button"
+              >
+                Login
+              </a>
+            </div>
+          
+
           <button
             className="relative ml-auto h-6 max-h-[40px] w-6 max-w-[40px] select-none rounded-lg text-center align-middle text-xs font-medium uppercase text-inherit transition-all hover:bg-transparent focus:bg-transparent active:bg-transparent disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:hidden"
             type="button"
