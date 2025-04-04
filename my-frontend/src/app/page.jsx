@@ -1,7 +1,14 @@
-import React from "react";
+"use client";
+// import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 
 const Page = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
     <div className="">
       {/* Top Bar for Contact */}
@@ -32,34 +39,31 @@ const Page = () => {
         </div>
       </div>
 
-      {/* Navbar with Logo */}
-      <nav className=" w-full max-w-screen-3xl px-8 mx-auto lg:py-0 font-[sans-serif] bg-indigo-50">
+    {/* Navbar with Logo */}
+      <nav className="w-full max-w-screen-3xl px-8 mx-auto lg:py-0 font-[sans-serif] bg-indigo-50">
         <div className="container flex flex-wrap items-center justify-between mx-auto text-slate-800">
           <a
             href="/"
-            className=" block cursor-pointer text-base text-slate-800 font-semibold"
+            className="block cursor-pointer text-base text-slate-800 font-semibold"
           >
             <img className="w-auto h-16" src="../images/Doc1.png" alt="" />
           </a>
 
-          <div className="hidden md:block">
-            <ul className="flex flex-col gap-2  lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 md:flex-row sm:flex-row">
+          <div className={`${isMenuOpen ? "block" : "hidden"} md:block`}>
+            <ul className="flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 md:flex-row sm:flex-row">
               <li className="flex items-center p-1 text-lg gap-x-2 text-slate-800">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  // strokewidth="1.5"
                   stroke="currentColor"
                   className="h-6 w-6 text-slate-500"
                 >
-                  {/* House Roof */}
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     d="M3 9l9-6 9 6"
                   />
-                  {/* House Body */}
                   <rect
                     x={4}
                     y={9}
@@ -67,9 +71,7 @@ const Page = () => {
                     height={11}
                     rx={2}
                     stroke="currentColor"
-                    // strokeWidth="1.5"
                   />
-                  {/* Door */}
                   <rect
                     x={10}
                     y={14}
@@ -77,10 +79,8 @@ const Page = () => {
                     height={6}
                     rx={1}
                     stroke="currentColor"
-                    // strokeWidth="1.5"
                   />
                 </svg>
-
                 <a href="/" className="flex items-center">
                   Home
                 </a>
@@ -93,7 +93,6 @@ const Page = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  // strokeWidth={2}
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
@@ -103,22 +102,6 @@ const Page = () => {
                   <path d="M18 16v2" />
                   <path d="M18 21h.01" />
                 </svg>
-
-                {/* <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="h-6 w-6 text-slate-500"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"
-                  />
-                </svg> */}
-
                 <a href="/user/about" className="flex items-center">
                   About Us
                 </a>
@@ -131,7 +114,6 @@ const Page = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  // strokeWidth={2}
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
@@ -141,7 +123,6 @@ const Page = () => {
                   <path d="M8 11h8" />
                   <path d="M12 15l3 2-3 2v-4z" />
                 </svg>
-
                 <a href="/user/courses" className="flex items-center">
                   Our Courses
                 </a>
@@ -151,7 +132,6 @@ const Page = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  // strokeWidth="1.5"
                   stroke="currentColor"
                   className="h-6 w-6 text-slate-500"
                 >
@@ -170,24 +150,20 @@ const Page = () => {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  // strokewidth="1.5"
                   stroke="currentColor"
                   className="h-6 w-6 text-slate-500"
                 >
-                  {/* Phone Icon */}
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     d="M3 4.75C3 4.336 3.336 4 3.75 4h16.5c.414 0 .75.336.75.75v14.5c0 .414-.336.75-.75.75H3.75A.75.75 0 0 1 3 19.25V4.75z"
                   />
-                  {/* Speaker Icon */}
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     d="M7.5 5.25h9m-9 3h9"
                   />
                 </svg>
-
                 <a href="/user/contact" className="flex items-center">
                   Contact Us
                 </a>
@@ -213,6 +189,7 @@ const Page = () => {
           <button
             className="relative ml-auto h-6 max-h-[40px] w-6 max-w-[40px] select-none rounded-lg text-center align-middle text-xs font-medium uppercase text-inherit transition-all hover:bg-transparent focus:bg-transparent active:bg-transparent disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:hidden"
             type="button"
+            onClick={toggleMenu}
           >
             <span className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
               <svg
