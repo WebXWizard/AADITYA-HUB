@@ -5,7 +5,7 @@ const cors = require("cors");
 
 const UserRouter = require("./Routers/user");
 const ContactRouter = require("./Routers/contact");
-// const LibraryRouter = require("./Routers/library");
+const AdminRouter = require("./Routers/admin");
 
 
 
@@ -21,7 +21,7 @@ app.use(
 
 app.use("/user", UserRouter);
 app.use("/contact", ContactRouter);
-// app.use("/library", LibraryRouter);
+app.use("/admin", AdminRouter);
 
 
 

@@ -118,7 +118,7 @@ const Login = () => {
               </div>
               {/* End Col */}
 
-              <div className="w-full max-w-sm mx-auto overflow-hidden  rounded-2xl shadow-md bg-gray-200">
+              <div className="w-full max-w-sm mx-auto overflow-hidden  rounded-2xl shadow-md bg-gray-600">
                 <div className="px-8 py-4">
                   <div className="flex justify-center mx-auto">
                     <img
@@ -148,7 +148,7 @@ const Login = () => {
                           />
                         </svg>
                         <a className="mx-2 text-lg" href="/user/login">
-                          Admin
+                          User
                         </a>
                       </button>
                       <button className="flex justify-center w-full px-6 py-3 mt-4 text-blue-500 border border-blue-500 rounded-lg md:mt-0 md:w-auto md:mx-2 dark:border-blue-400 dark:text-blue-400 focus:outline-none">
@@ -166,8 +166,8 @@ const Login = () => {
                             d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
                           />
                         </svg>
-                        <a className="mx-2 text-lg" href="/user/register">
-                          User
+                        <a className="mx-2 text-lg" href="/user/adminLogin">
+                          Admin
                         </a>
                       </button>
                     </div>
@@ -181,7 +181,7 @@ const Login = () => {
                         </div>
                       ) : null}
                       <input
-                        className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-500 bg-white border rounded-xl text-lg dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                        className="block w-full px-4 py-2 mt-2 text-white placeholder-gray-500 bg-white border rounded-xl text-lg dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                         type="email"
                         placeholder="Email Address"
                         aria-label="Email Address"
@@ -200,7 +200,7 @@ const Login = () => {
                         </div>
                       ) : null}
                       <input
-                        className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-500 bg-white border rounded-xl text-lg dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                        className="block w-full px-4 py-2 mt-2 text-white placeholder-gray-500 bg-white border rounded-xl text-lg dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                         type="password"
                         placeholder="Password"
                         aria-label="Password"
@@ -219,13 +219,14 @@ const Login = () => {
                       </a>
                     </p>
                     <div className="flex items-center justify-center mt-4">
-                      <button className="px-6 w-full py-2 text-lg font-bold tracking-wide text-white capitalize transition-colors duration-300 transform bg-sky-400 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                      <button 
+                        // type="button"
+                        className="px-6 w-full py-2 text-lg font-bold tracking-wide text-white capitalize transition-colors duration-300 transform bg-sky-400 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                         Sign In
                       </button>
                     </div>
                     <div className="flex items-center mt-6 -mx-2">
                       <button
-                        // type="button"
                         className="flex items-center justify-center w-full px-6 py-2 mx-2 text-md font-semibold text-white transition-colors duration-300 transform bg-gray-500 rounded-lg hover:bg-blue-400 focus:bg-blue-400 focus:outline-none"
                       >
                         <svg

@@ -18,7 +18,7 @@ const gallery = () => {
             </div>
           </div>
 
-          <div className="bg-white dark:bg-gray-800 h-screen py-6 sm:py-8 lg:py-12">
+          <div className="bg-white h-screen py-6 sm:py-8 lg:py-12">
             <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
               <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
                 {/* image - start */}
@@ -155,18 +155,19 @@ const gallery = () => {
         </div>
       </section>
 
-      <div className="max-w-5xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto font-[sans-serif]">
+        {/* Footer Section */}
+        <div className="max-w-5xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto font-[sans-serif]">
         {/* Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
           {/* Card */}
           <a
-            className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition dark:bg-neutral-900 dark:border-neutral-800"
+            className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition dark:bg-white dark:border-neutral-800"
             href="/user/contact"
           >
             <div className="p-4 md:p-5">
               <div className="flex gap-x-5">
                 <svg
-                  className="mt-1 shrink-0 size-5 text-gray-800 dark:text-neutral-200"
+                  className="mt-1 shrink-0 size-5 text-gray-800 dark:text-gray-800"
                   xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
@@ -183,7 +184,7 @@ const gallery = () => {
                   <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                 </svg>
                 <div className="grow">
-                  <h3 className="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-neutral-400 dark:text-neutral-200">
+                  <h3 className="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-neutral-400 dark:text-gray-800">
                     Ask our community
                   </h3>
                   <p className="text-sm text-gray-500 dark:text-neutral-500">
@@ -196,13 +197,13 @@ const gallery = () => {
           {/* End Card */}
           {/* Card */}
           <a
-            className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition dark:bg-neutral-900 dark:border-neutral-800"
+            className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition dark:bg-white dark:border-neutral-800"
             href="#"
           >
             <div className="p-4 md:p-5">
               <div className="flex gap-x-5">
                 <svg
-                  className="mt-1 shrink-0 size-5 text-gray-800 dark:text-neutral-200"
+                  className="mt-1 shrink-0 size-5 text-gray-800 dark:text-gray-800"
                   xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
@@ -218,7 +219,7 @@ const gallery = () => {
                   <path d="M12 17h.01" />
                 </svg>
                 <div className="grow">
-                  <h3 className="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-neutral-400 dark:text-neutral-200">
+                  <h3 className="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-neutral-400 dark:text-gray-800">
                     Get help by our Team
                   </h3>
                   <p className="text-xs text-gray-500 dark:text-neutral-500">
@@ -231,13 +232,13 @@ const gallery = () => {
           {/* End Card */}
           {/* Card */}
           <a
-            className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition dark:bg-neutral-900 dark:border-neutral-800"
+            className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md focus:outline-none focus:shadow-md transition dark:bg-white dark:border-neutral-800"
             href="#"
           >
             <div className="p-4 md:p-5">
               <div className="flex gap-x-5">
                 <svg
-                  className="mt-1 shrink-0 size-5 text-gray-800 dark:text-neutral-200"
+                  className="mt-1 shrink-0 size-5 text-gray-800 dark:text-gray-800"
                   xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
@@ -252,7 +253,7 @@ const gallery = () => {
                   <path d="m22 10-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 10" />
                 </svg>
                 <div className="grow">
-                  <h3 className="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-neutral-400 dark:text-neutral-200">
+                  <h3 className="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-neutral-400 dark:text-gray-800">
                     Email us
                   </h3>
                   <p className="text-sm text-gray-500 dark:text-neutral-500">

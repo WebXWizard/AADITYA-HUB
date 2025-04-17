@@ -39,7 +39,7 @@ const Page = () => {
         </div>
       </div>
 
-    {/* Navbar with Logo */}
+      {/* Navbar with Logo */}
       <nav className="w-full max-w-screen-3xl px-8 mx-auto lg:py-0 font-[sans-serif] bg-indigo-50">
         <div className="container flex flex-wrap items-center justify-between mx-auto text-slate-800">
           <a
@@ -179,11 +179,11 @@ const Page = () => {
               Get Started
             </a>
             <a
-              href="/user/login"
+              href="/user/adminLogin"
               className="rounded-xl bg-blue-500 py-2 px-4 border border-transparent text-center text-md text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none font-bold"
               type="button"
             >
-              Login
+              Admin
             </a>
           </div>
           <button
@@ -1145,20 +1145,20 @@ const Page = () => {
               />
             </a>
 
-            <p className="text-gray-600 text-2xl text-center">
+            <p className="text-gray-800 text-2xl text-center">
               Aadityaa Computer's &amp; Digital Hub
             </p>
           </div>
           {/* End Col */}
 
           <div>
-            <h4 className="text-lg font-bold text-gray-900 uppercase dark:text-neutral-100 ">
+            <h4 className="text-lg font-bold text-gray-900 uppercase dark:text-neutral-800 ">
               Company
             </h4>
             <div className="mt-3 grid space-y-2 text-lg">
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="/"
                 >
                   Home
@@ -1166,7 +1166,7 @@ const Page = () => {
               </p>
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="/user/about"
                 >
                   About Us
@@ -1175,7 +1175,7 @@ const Page = () => {
 
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="/user/courses"
                 >
                   Our Certified Courses
@@ -1183,7 +1183,7 @@ const Page = () => {
               </p>
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="/user/contact"
                 >
                   Send Query
@@ -1193,13 +1193,13 @@ const Page = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold text-gray-900 uppercase dark:text-neutral-100">
+            <h4 className="text-lg font-bold text-gray-900 uppercase dark:text-neutral-800">
               Our Courses
             </h4>
             <div className="mt-3 grid space-y-3 text-lg">
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="/user/courses"
                 >
                   NIELIT Courses
@@ -1207,7 +1207,7 @@ const Page = () => {
               </p>
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="/user/courses"
                 >
                   Web Development
@@ -1215,7 +1215,7 @@ const Page = () => {
               </p>
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="/user/courses"
                 >
                   Digital Marketing
@@ -1223,7 +1223,7 @@ const Page = () => {
               </p>
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="/user/courses"
                 >
                   Programming Courses
@@ -1233,13 +1233,13 @@ const Page = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold text-gray-900 uppercase dark:text-neutral-100">
+            <h4 className="text-lg font-bold text-gray-900 uppercase dark:text-neutral-800">
               Contact Us
             </h4>
             <div className="mt-3 grid space-y-3 text-lg">
               <h1>
                 <p
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="#"
                 >
                   <span className="md:block hidden">📧</span>{" "}
@@ -1248,7 +1248,7 @@ const Page = () => {
               </h1>
               <h1>
                 <p
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="#"
                 >
                   <img
@@ -1262,7 +1262,7 @@ const Page = () => {
               </h1>
               <h1>
                 <p
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="/user/courses"
                 >
                   🕘 : Mon-Sat: 8 AM - 7 PM
@@ -1273,7 +1273,7 @@ const Page = () => {
         </div>
         <hr className="my-6 border-gray-200 md:my-8 dark:border-gray-700 h-2" />
 
-        <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500 text-lg">
+        <p className="text-gray-600 transition-colors duration-300 dark:text-gray-800 dark:hover:text-blue-400 hover:underline hover:text-blue-500 text-lg">
           📍 J S Complex, Dewa Road, near Ramswaroop University,
           Barabanki-225003
         </p>
@@ -1295,7 +1295,7 @@ const Page = () => {
             <div className="flex flex-wrap items-center gap-3">
               <div className="space-x-4 text-lg text-center mb-2">
                 <a
-                  className="inline-flex gap-x-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500 text-lg"
+                  className="inline-flex gap-x-2 text-gray-600 transition-colors duration-300 dark:text-gray-800 dark:hover:text-blue-400 hover:underline hover:text-blue-500 text-lg"
                   href="#"
                 >
                   © 2025 Aadityaa Computer's & Digital Hub Center, All rights

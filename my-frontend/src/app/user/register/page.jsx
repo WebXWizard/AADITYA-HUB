@@ -67,7 +67,7 @@ const Register = () => {
             <div className="w-full max-w-sm mx-auto overflow-hidden bg-white rounded-2xl shadow-md dark:bg-gray-800 font-[sans-serif]">
               <div className="px-8 py-8">
                 <div className="flex justify-center mx-auto">
-                  <h3 className="mt-0 text-2xl lg:text-3xl font-bold text-center text-indigo-600 dark:text-gray-200">
+                  <h3 className="mt-0 text-2xl lg:text-3xl font-bold text-center text-indigo-600">
                     Create Your Account
                   </h3>
                 </div>
@@ -81,7 +81,7 @@ const Register = () => {
                       </div>
                     ) : null}
                     <input
-                      className="block w-full px-4 py-2 mt-2 text-gray-600 placeholder-gray-500 bg-white border rounded-xl dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                      className="block w-full px-4 py-2 mt-2 text-white placeholder-gray-500 bg-white border rounded-xl dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-100 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                       type="text"
                       placeholder="Enter Your Name"
                       aria-label="Email Address"
@@ -102,7 +102,7 @@ const Register = () => {
                       id="category"
                       onChange={signUpForm.handleChange}
                       value={signUpForm.values.category}
-                      className="block w-full px-4 py-2 mt-2 text-gray-600 placeholder-gray-500 bg-white border rounded-xl dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                      className="block w-full px-4 py-2 mt-2 text-white placeholder-gray-500 bg-white border rounded-xl dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-100 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                     >
                       <option value="">Select Your Course</option>
                       <option>Entry Level Courses</option>
@@ -123,7 +123,7 @@ const Register = () => {
                       </div>
                     ) : null}
                     <input
-                      className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-500 bg-white border rounded-xl dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                      className="block w-full px-4 py-2 mt-2 text-white placeholder-gray-500 bg-white border rounded-xl dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-100 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                       type="email"
                       placeholder="Email Address"
                       aria-label="Email Address"
@@ -142,7 +142,7 @@ const Register = () => {
                       </div>
                     ) : null}
                     <input
-                      className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-500 bg-white border rounded-xl dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                      className="block w-full px-4 py-2 mt-2 text-white placeholder-gray-500 bg-white border rounded-xl dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-100 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                       type="password"
                       placeholder="Enter Password"
                       aria-label="Password"
@@ -160,7 +160,7 @@ const Register = () => {
                       </div>
                     ) : null}
                     <input
-                      className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-500 bg-white border rounded-xl dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                      className="block w-full px-4 py-2 mt-2 text-white placeholder-gray-500 bg-white border rounded-xl dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-100 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                       type="number"
                       placeholder="Enter Your Number"
                       aria-label="Password"
@@ -175,11 +175,11 @@ const Register = () => {
                       SignUp Now
                     </button>
                   </div>
-                  <p className="text-md md:text-md font-light text-gray-600 dark:text-gray-400 p-2 font-[sans-serif]">
+                  <p className="text-md md:text-md font-light text-gray-600 dark:text-gray-200 p-2 font-[sans-serif]">
                     Already have an account?{" "}
                     <a
                       href="/user/login"
-                      className="font-md font-semibold text-blue-600 hover:text-violet-800 dark:text-primary-500"
+                      className="font-md font-semibold text-indigo-600 "
                     >
                       Login here
                     </a>

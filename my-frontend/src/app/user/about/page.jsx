@@ -104,7 +104,7 @@ const About = () => {
       </section>
 
       {/* Our Team */}
-      <section className="bg-white dark:bg-gray-900 font-[sans-serif]">
+      <section className="bg-white  font-[sans-serif]">
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-bold leading-tight text-indigo-600 sm:text-4xl lg:text-5xl">
@@ -123,7 +123,7 @@ const About = () => {
                 src="../images/MD.jpg"
                 alt="Bonnie Avatar"
               />
-              <h3 className="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-lg font-bold tracking-tight text-gray-900 ">
                 <a href="#">Mr. Bhanu Prakash Mishra Sir</a>
               </h3>
               <p>Managing Director</p>
@@ -134,7 +134,7 @@ const About = () => {
                 src="../images/Suraj.jpg"
                 alt="Helene Avatar"
               />
-              <h3 className="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-gray-800">
                 <a href="#">Mr. Suraj Kumar Yadav Sir</a>
               </h3>
               <p>Head of Institute</p>
@@ -145,7 +145,7 @@ const About = () => {
                 src="../images/NN.jpg"
                 alt="Jese Avatar"
               />
-              <h3 className="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-gray-800">
                 <a href="#">Ms. Nainsi Mishra Ma'am</a>
               </h3>
               <p>Specialist Trainer</p>
@@ -156,7 +156,7 @@ const About = () => {
                 src="../images/Nj.jpg"
                 alt="Joseph Avatar"
               />
-              <h3 className="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-gray-800">
                 <a href="#">Ms. Anjali Gautam Ma'am</a>
               </h3>
               <p>Computer Trainer</p>
@@ -167,7 +167,7 @@ const About = () => {
                 src="../images/BS1.jpg"
                 alt="Sofia Avatar"
               />
-              <h3 className="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-gray-800">
                 <a href="#">Ms. Bhawna Ma'am</a>
               </h3>
               <p>CS Programmer and Trainer</p>
@@ -178,7 +178,7 @@ const About = () => {
                 src="../images/SA.jpg"
                 alt="Leslie Avatar"
               />
-              <h3 className="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-gray-800">
                 <a href="#">Mr. Shahe Alam Sir</a>
               </h3>
               <p>CS Programmer and Trainer</p>
@@ -189,7 +189,7 @@ const About = () => {
                 src="../images/Vikas.jpg"
                 alt="Michael Avatar"
               />
-              <h3 className="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-gray-800">
                 <a href="#">Mr. Vikas Tiwari</a>
               </h3>
               <p>Digital Marketing Expert</p>
@@ -546,20 +546,20 @@ const About = () => {
               />
             </a>
 
-            <p className="text-gray-600 text-2xl text-center">
+            <p className="text-gray-800 text-2xl text-center">
               Aadityaa Computer's &amp; Digital Hub
             </p>
           </div>
           {/* End Col */}
 
           <div>
-            <h4 className="text-lg font-bold text-gray-900 uppercase dark:text-neutral-100 ">
+            <h4 className="text-lg font-bold text-gray-900 uppercase dark:text-neutral-800 ">
               Company
             </h4>
             <div className="mt-3 grid space-y-2 text-lg">
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="/"
                 >
                   Home
@@ -567,7 +567,7 @@ const About = () => {
               </p>
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="/user/about"
                 >
                   About Us
@@ -576,7 +576,7 @@ const About = () => {
 
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="/user/courses"
                 >
                   Our Certified Courses
@@ -584,7 +584,7 @@ const About = () => {
               </p>
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="/user/contact"
                 >
                   Send Query
@@ -594,13 +594,13 @@ const About = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold text-gray-900 uppercase dark:text-neutral-100">
+            <h4 className="text-lg font-bold text-gray-900 uppercase dark:text-neutral-800">
               Our Courses
             </h4>
             <div className="mt-3 grid space-y-3 text-lg">
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="/user/courses"
                 >
                   NIELIT Courses
@@ -608,7 +608,7 @@ const About = () => {
               </p>
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="/user/courses"
                 >
                   Web Development
@@ -616,7 +616,7 @@ const About = () => {
               </p>
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="/user/courses"
                 >
                   Digital Marketing
@@ -624,7 +624,7 @@ const About = () => {
               </p>
               <p>
                 <a
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="/user/courses"
                 >
                   Programming Courses
@@ -634,13 +634,13 @@ const About = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold text-gray-900 uppercase dark:text-neutral-100">
+            <h4 className="text-lg font-bold text-gray-900 uppercase dark:text-neutral-800">
               Contact Us
             </h4>
             <div className="mt-3 grid space-y-3 text-lg">
               <h1>
                 <p
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="#"
                 >
                   <span className="md:block hidden">📧</span>{" "}
@@ -649,7 +649,7 @@ const About = () => {
               </h1>
               <h1>
                 <p
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="#"
                 >
                   <img
@@ -663,7 +663,7 @@ const About = () => {
               </h1>
               <h1>
                 <p
-                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-blue-800 focus:outline-none focus:text-gray-800 dark:text-neutral-800  dark:focus:text-neutral-200"
                   href="/user/courses"
                 >
                   🕘 : Mon-Sat: 8 AM - 7 PM
@@ -674,7 +674,7 @@ const About = () => {
         </div>
         <hr className="my-6 border-gray-200 md:my-8 dark:border-gray-700 h-2" />
 
-        <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500 text-lg">
+        <p className="text-gray-600 transition-colors duration-300 dark:text-gray-800 dark:hover:text-blue-400 hover:underline hover:text-blue-500 text-lg">
           📍 J S Complex, Dewa Road, near Ramswaroop University,
           Barabanki-225003
         </p>
@@ -696,7 +696,7 @@ const About = () => {
             <div className="flex flex-wrap items-center gap-3">
               <div className="space-x-4 text-lg text-center mb-2">
                 <a
-                  className="inline-flex gap-x-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500 text-lg"
+                  className="inline-flex gap-x-2 text-gray-600 transition-colors duration-300 dark:text-gray-800 dark:hover:text-blue-400 hover:underline hover:text-blue-500 text-lg"
                   href="#"
                 >
                   © 2025 Aadityaa Computer's & Digital Hub Center, All rights

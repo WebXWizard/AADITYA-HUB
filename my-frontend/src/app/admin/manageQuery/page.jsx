@@ -68,7 +68,7 @@ const ManageUser = () => {
                     <td className="p-2 border via-violet-300">
                       {user.details}
                     </td>
-                    {/* <td
+                    <td
                       onClick={() => deleteUser(user._id)}
                       className="p-2 border via-violet-300"
                     >
@@ -76,14 +76,7 @@ const ManageUser = () => {
                         Delete
                       </button>
                     </td>
-                    <td className="p-2 border via-violet-300">
-                      <Link
-                        href={`/admin/updateUser/` + user._id}
-                        className="bg-blue-500 text-white px-4 py-2 rounded-lg"
-                      >
-                        Update
-                      </Link>
-                    </td> */}
+                   
                   </tr>
                 );
               })}

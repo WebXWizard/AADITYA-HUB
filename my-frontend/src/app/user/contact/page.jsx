@@ -56,7 +56,7 @@ const ContactUs = () => {
       <div className="mt-8 max-w-5xl max-lg:max-w-3xl mx-auto rounded-lg ">
         <div className="grid md:grid-cols-2 gap-8 lg:gap-16 lg:grid-cols-2 sm:p-8 p-4 font-[sans-serif] ">
           {/* Form Start */}
-          <div className="w-full max-w-sm mx-auto overflow-hidden  rounded-2xl shadow-2xl dark:bg-gray-900 border-black ">
+          <div className="w-full max-w-sm mx-auto overflow-hidden  rounded-2xl shadow-2xl dark:bg-gray-800 border-white ">
             <div className="px-8 py-12  ">
               <div className="flex justify-center mx-auto ">
                 <img
@@ -70,7 +70,7 @@ const ContactUs = () => {
               </h3>
               <form
                 onSubmit={contactForm.handleSubmit}
-                className="border-black "
+                className="border-white "
               >
                 <div className="w-full mt-4">
                   <label className="block mb-2 text-xl"> </label>
@@ -80,7 +80,7 @@ const ContactUs = () => {
                     </div>
                   ) : null}
                   <input
-                    className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-500 bg-white border rounded-lg dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                    className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-500 bg-white border rounded-lg  dark:border-gray-600 dark:placeholder-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                     type="text"
                     placeholder="Your Name"
                     aria-label="Enter Your Name "
@@ -97,7 +97,7 @@ const ContactUs = () => {
                     </div>
                   ) : null}
                   <input
-                    className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-500 bg-white border rounded-lg dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                    className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-500 bg-white border rounded-lg  dark:border-gray-600 dark:placeholder-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                     type="email"
                     placeholder="Email Address"
                     aria-label="Email Address"
@@ -114,7 +114,7 @@ const ContactUs = () => {
                     </div>
                   ) : null}
                   <input
-                    className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-500 bg-white border rounded-lg dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                    className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-500 bg-white border rounded-lg  dark:border-gray-600 dark:placeholder-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                     type="number"
                     placeholder="Enter Your Number"
                     aria-label="Enter Your Number"
@@ -131,7 +131,7 @@ const ContactUs = () => {
                     </div>
                   ) : null}
                   <textarea
-                    className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-500 bg-white border rounded-lg dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                    className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-500 bg-white border rounded-lg  dark:border-gray-600 dark:placeholder-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                     type="text"
                     placeholder="Enter Message or Query "
                     aria-label="Details"
@@ -142,7 +142,7 @@ const ContactUs = () => {
                 </div>
 
                 <div className="flex items-center justify-center mt-4">
-                  <button className="px-6 w-full py-2 text-md font-medium tracking-wide text-black capitalize transition-colors duration-300 transform bg-sky-400 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                  <button className="px-6 w-full py-2 text-md font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-sky-400 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                     Send Enquiry
                   </button>
                 </div>
@@ -192,13 +192,13 @@ const ContactUs = () => {
                   <div className="shrink-0">
                     <img
                       className="size-8 rounded-full"
-                      src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+                      src="../images/NN.jpg"
                       alt="Avatar"
                     />
                   </div>
                   <div className="grow">
                     <div className="font-semibold text-gray-800">
-                      Josh Grazioso
+                      Ms. Naincy Ma'am
                     </div>
                     <div className="text-xs text-gray-500">
                       Director Payments &amp; Risk | Airbnb
