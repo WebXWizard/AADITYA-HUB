@@ -227,7 +227,7 @@ const Sidebar = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="" href="/user/register">
+                  <a className="" href="/user/adminSignup">
                     <button
                       className="middle  font-[sans-serif] font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-5 rounded-lg text-white hover:bg-white/10 active:bg-white/30 w-full flex items-center gap-4 px-4 capitalize"
                       type="button"
@@ -242,7 +242,7 @@ const Sidebar = () => {
                         <path d="M6.25 6.375a4.125 4.125 0 118.25 0 4.125 4.125 0 01-8.25 0zM3.25 19.125a7.125 7.125 0 0114.25 0v.003l-.001.119a.75.75 0 01-.363.63 13.067 13.067 0 01-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 01-.364-.63l-.001-.122zM19.75 7.5a.75.75 0 00-1.5 0v2.25H16a.75.75 0 000 1.5h2.25v2.25a.75.75 0 001.5 0v-2.25H22a.75.75 0 000-1.5h-2.25V7.5z" />
                       </svg>
                       <p className="block antialiased font-[sans-serif] text-base leading-relaxed text-inherit font-medium capitalize">
-                        sign up
+                        sign up / Add Admin
                       </p>
                     </button>
                   </a>
@@ -454,7 +454,7 @@ const Sidebar = () => {
                     auth pages
                   </p>
                 </li>
-                <li>
+                {/* <li>
                   <a className="" href="/user/login">
                     <button
                       className="middle none font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 rounded-lg text-white hover:bg-white/10 active:bg-white/30 w-full flex items-center gap-4 px-4 capitalize"
@@ -478,9 +478,9 @@ const Sidebar = () => {
                       </p>
                     </button>
                   </a>
-                </li>
+                </li> */}
                 <li>
-                  <a className="" href="/user/register">
+                  <a className="" href="/user/adminSignup">
                     <button
                       className="middle  font-[sans-serif] font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 rounded-lg text-white hover:bg-white/10 active:bg-white/30 w-full flex items-center gap-4 px-4 capitalize"
                       type="button"
@@ -495,7 +495,7 @@ const Sidebar = () => {
                         <path d="M6.25 6.375a4.125 4.125 0 118.25 0 4.125 4.125 0 01-8.25 0zM3.25 19.125a7.125 7.125 0 0114.25 0v.003l-.001.119a.75.75 0 01-.363.63 13.067 13.067 0 01-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 01-.364-.63l-.001-.122zM19.75 7.5a.75.75 0 00-1.5 0v2.25H16a.75.75 0 000 1.5h2.25v2.25a.75.75 0 001.5 0v-2.25H22a.75.75 0 000-1.5h-2.25V7.5z" />
                       </svg>
                       <p className="block antialiased font-[sans-serif] text-base leading-relaxed text-inherit font-medium capitalize">
-                        sign up
+                        sign up / Add Admin
                       </p>
                     </button>
                   </a>
