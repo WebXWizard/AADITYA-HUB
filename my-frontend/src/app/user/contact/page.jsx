@@ -201,7 +201,7 @@ const ContactUs = () => {
                       Ms. Naincy Ma'am
                     </div>
                     <div className="text-xs text-gray-500">
-                      Director Payments &amp; Risk | Airbnb
+                     Specialist Trainer 
                     </div>
                   </div>
                 </div>

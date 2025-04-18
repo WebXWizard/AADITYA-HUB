@@ -55,10 +55,10 @@ const Login = () => {
             <div className="grid items-center md:grid-cols-2 gap-8 lg:gap-12">
               <div>
                 <a
-                  className="inline-block text-2xl font-semibold bg-clip-text cursor-pointer bg-gradient-to-l from-blue-600 to-violet-500 text-transparent mb-2"
+                  className="inline-block text-xl font-bold bg-clip-text cursor-pointer bg-gradient-to-l from-blue-600 to-violet-500 text-transparent mb-2"
                   href="/"
                 >
-                  React Library Directory: A vision for 2024
+                  Aadityaa Computer's & Digital Hub: A vision for 2025
                 </a>
                 {/* Title */}
                 <div className="mt-4 md:mb-12 max-w-2xl">
@@ -99,16 +99,16 @@ const Login = () => {
                       <div className="shrink-0">
                         <img
                           className="size-8 rounded-full"
-                          src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+                          src="../images/NN.jpg"
                           alt="Avatar"
                         />
                       </div>
                       <div className="grow">
                         <div className="font-semibold text-gray-800">
-                          Josh Grazioso
+                          Miss. Naincy Ma'am
                         </div>
                         <div className="text-xs text-gray-500">
-                          Director Payments &amp; Risk | Airbnb
+                          Specialist Trainer
                         </div>
                       </div>
                     </div>

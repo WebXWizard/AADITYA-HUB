@@ -52,10 +52,10 @@ const Login = () => {
             <div className="grid items-center md:grid-cols-2 gap-8 lg:gap-12">
               <div>
                 <a
-                  className="inline-block text-2xl font-semibold bg-clip-text cursor-pointer bg-gradient-to-l from-blue-600 to-violet-500 text-transparent mb-2"
+                  className="inline-block text-3xl font-semibold bg-clip-text cursor-pointer bg-gradient-to-l from-blue-600 to-violet-500 text-transparent mb-2"
                   href="/"
                 >
-                  React Library Directory: A vision for 2024
+                  Aadityaa Computer's & Digital Hub: A vision for 2025
                 </a>
                 {/* Title */}
                 <div className="mt-4 md:mb-12 max-w-2xl">
@@ -91,25 +91,7 @@ const Login = () => {
                       partner.
                     </p>
                   </div>
-                  <footer className="mt-3">
-                    <div className="flex items-center gap-x-4">
-                      <div className="shrink-0">
-                        <img
-                          className="size-8 rounded-full"
-                          src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
-                          alt="Avatar"
-                        />
-                      </div>
-                      <div className="grow">
-                        <div className="font-semibold text-gray-800">
-                          Josh Grazioso
-                        </div>
-                        <div className="text-xs text-gray-500">
-                          Director Payments &amp; Risk | Airbnb
-                        </div>
-                      </div>
-                    </div>
-                  </footer>
+                 
                 </blockquote>
                 {/* End Blockquote */}
               </div>
@@ -217,15 +199,14 @@ const Login = () => {
                     </p>
                     <div className="flex items-center justify-center mt-4">
                       <button
-                      //  type="button"
-                       className="px-6 w-full py-2 text-lg font-bold tracking-wide text-white capitalize transition-colors duration-300 transform bg-sky-400 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                        //  type="button"
+                        className="px-6 w-full py-2 text-lg font-bold tracking-wide text-white capitalize transition-colors duration-300 transform bg-sky-400 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50"
+                      >
                         Sign In
                       </button>
                     </div>
                     <div className="flex items-center mt-6 -mx-2">
-                      <button
-                        className="flex items-center justify-center w-full px-6 py-2 mx-2 text-md font-semibold text-white transition-colors duration-300 transform bg-gray-500 rounded-lg hover:bg-blue-400 focus:bg-blue-400 focus:outline-none"
-                      >
+                      <button className="flex items-center justify-center w-full px-6 py-2 mx-2 text-md font-semibold text-white transition-colors duration-300 transform bg-gray-500 rounded-lg hover:bg-blue-400 focus:bg-blue-400 focus:outline-none">
                         <svg
                           className="w-4 h-4 mx-2 fill-current"
                           viewBox="0 0 24 24"
