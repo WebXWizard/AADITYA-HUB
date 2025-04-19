@@ -227,7 +227,7 @@ const Page = () => {
               <span className="leading-snug text-sky-900">Digital Hub</span>.
             </h1>
             <p className="block  antialiased font-normal leading-relaxed text-inherit mx-auto w-full !text-gray-800 md:text-md  lg:text-lg text-base max-w-3xl ">
-              Aaditya Computer's and Digital Hub is a comprehensive tech center
+              Aadityaa Computer's and Digital Hub is a comprehensive tech center
               which provides high-quality education in computer literacy,
               programming, digital marketing, and IT skills.
               <span className="">
