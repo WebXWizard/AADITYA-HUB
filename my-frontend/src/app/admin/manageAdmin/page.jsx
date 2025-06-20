@@ -1,13 +1,13 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
-import axios from "axios";
 import Link from "next/link";
+import axiosInstance from "@/utils/axiosInstance";
 
 const ManageUser = () => {
   const fetchUserList = () => {
-    axios
-      .get("http://localhost:5000/admin/getall")
+    axiosInstance
+      .get("admin/getall")
       .then((res) => {
         console.log(res.status);
         console.log(res.data);
@@ -15,7 +15,7 @@ const ManageUser = () => {
       })
       .catch((err) => {
         console.log(err);
-        toast.error("Failed to fetch User List");
+        toast.error("Failed to fetch Admin List");
       });
   };
   useEffect(() => {
@@ -23,10 +23,10 @@ const ManageUser = () => {
   }, []);
 
   const deleteUser = (id) => {
-    axios
-      .delete("http://localhost:5000/admin/delete/" + id)
+    axiosInstance
+      .delete("admin/delete/" + id)
       .then((result) => {
-        toast.success("User Deleted Successfully");
+        toast.success("Admin Deleted Successfully");
         fetchUserList();
       })
       .catch((err) => {

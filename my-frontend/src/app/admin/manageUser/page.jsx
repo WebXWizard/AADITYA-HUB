@@ -1,13 +1,13 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
-import axios from "axios";
 import Link from "next/link";
+import axiosInstance from "@/utils/axiosInstance";
 
 const ManageUser = () => {
   const fetchUserList = () => {
-    axios
-      .get("http://localhost:5000/user/getall")
+    axiosInstance
+      .get("user/getall")
       .then((res) => {
         console.log(res.status);
         console.log(res.data);
@@ -23,8 +23,8 @@ const ManageUser = () => {
   }, []);
 
   const deleteUser = (id) => {
-    axios
-      .delete("http://localhost:5000/user/delete/" + id)
+    axiosInstance
+      .delete("user/delete/" + id)
       .then((result) => {
         toast.success("User Deleted Successfully");
         fetchUserList();
