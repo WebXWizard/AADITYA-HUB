@@ -15,7 +15,7 @@ const Navbar = () => {
     <div>
       {/* Shows on Every Page */}
 
-      {/* Top Navbar */}
+    {/* Top Bar for Contact */}
       <div className="bg-indigo-400 text-center py-2 lg:px-4 font-[sans-serif]">
         <div
           className="p-2 bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
@@ -25,12 +25,13 @@ const Navbar = () => {
             <span className="md:block hidden"> 📧 </span>{" "}
             aadityaacomputer9@gmail.com
           </span>
-          <span className=" font-semibold mr-2 text-xs text-left flex-auto">
-            📞 +91 7985810921 / 8090068623 
-          </span>
           <span className="sm:block hidden font-semibold mr-2 text-xs text-left flex-auto">
-          📍 J S Complex, Dewa Road, near
-          Ramswaroop University, Barabanki-225003
+            📍 J S Complex, Dewa Road, near Ramswaroop University,
+            Barabanki-225003{" "}
+          </span>{" "}
+          <span className="font-semibold mr-2 text-xs text-left flex-auto">
+            {" "}
+            📞+91 7985810921 / 8090068623
           </span>
           <svg
             className="fill-current opacity-75 h-4 w-4"
@@ -49,7 +50,7 @@ const Navbar = () => {
             href="/"
             className="block cursor-pointer text-base text-slate-800 font-semibold"
           >
-            <img className="w-auto h-16" src="../images/Doc1.png" alt="" />
+            <img className="w-20 h-16" src="../images/Doc1.png" alt="" />
           </a>
 
           <div className={`${isMenuOpen ? "block" : "hidden"} md:block`}>
@@ -171,23 +172,25 @@ const Navbar = () => {
                   Contact Us
                 </a>
               </li>
+              <li className="flex items-center p-1 text-lg gap-x-2 text-slate-800">
+                <a
+                  href="/user/register"
+                  className="rounded-xl bg-slate-700 py-1 px-3 border border-transparent text-center text-md text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-blue-500 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none font-bold"
+                  type="button"
+                >
+                  Get Started
+                </a>
+              </li>
+              <li className="flex items-center p-1 text-lg gap-x-2 text-slate-800">
+                <a
+                  href="/user/adminLogin"
+                  className="rounded-xl bg-blue-500 py-1 px-3 border border-transparent text-center text-md text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none font-bold"
+                  type="button"
+                >
+                  Admin
+                </a>
+              </li>
             </ul>
-          </div>
-          <div className="items-center hidden gap-x-2 lg:flex">
-            <a
-              href="/user/register"
-              className="rounded-xl bg-slate-700 py-2 px-4 border border-transparent text-center text-md text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-blue-500 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none font-bold"
-              type="button"
-            >
-              Get Started
-            </a>
-            <a
-              href="/user/login"
-              className="rounded-xl bg-blue-500 py-2 px-4 border border-transparent text-center text-md text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none font-bold"
-              type="button"
-            >
-              Login
-            </a>
           </div>
           <button
             className="relative ml-auto h-6 max-h-[40px] w-6 max-w-[40px] select-none rounded-lg text-center align-middle text-xs font-medium uppercase text-inherit transition-all hover:bg-transparent focus:bg-transparent active:bg-transparent disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:hidden"
@@ -212,6 +215,7 @@ const Navbar = () => {
           </button>
         </div>
       </nav>
+      
     </div>
   );
 };
