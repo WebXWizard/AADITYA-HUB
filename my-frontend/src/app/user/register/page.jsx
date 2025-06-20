@@ -3,7 +3,7 @@ import React from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import toast from "react-hot-toast";
-import axios from "axios";
+import axiosInstance from "@/utils/axiosInstance";
 import { useRouter } from "next/navigation";
 
 const SignUpSchema = Yup.object().shape({
@@ -43,8 +43,8 @@ const Register = () => {
     },
     onSubmit: (values, { resetForm }) => {
       console.log(values);
-      axios
-        .post("http://localhost:5000/user/add", values)
+      axiosInstance
+        .post("user/add", values)
         .then((response) => {
           console.log(response.status);
           resetForm();
