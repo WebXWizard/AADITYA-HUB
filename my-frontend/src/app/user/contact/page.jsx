@@ -35,7 +35,7 @@ const ContactUs = () => {
     },
     onSubmit: (values, { resetForm }) => {
       console.log(values);
-      axiosInstance
+      axios
         .post("/contact/add", values)
 
         .then((response) => {
