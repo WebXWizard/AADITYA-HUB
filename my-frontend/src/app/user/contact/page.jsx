@@ -3,7 +3,7 @@ import React from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import toast from "react-hot-toast";
-import axiosInstance from "@/utils/axiosInstance"; // yeh import karo
+import axiosInstance from "@/utils/axiosInstance";
 import { useRouter } from "next/navigation";
 
 const ContactSchema = Yup.object().shape({
@@ -35,9 +35,7 @@ const ContactUs = () => {
     },
     onSubmit: (values, { resetForm }) => {
       console.log(values);
-      axios
-        .post("/contact/add", values)
-
+      axiosInstance.post("/contact/add", values)
         .then((response) => {
           console.log(response.status);
           resetForm();
