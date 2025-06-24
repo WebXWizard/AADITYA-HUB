@@ -81,7 +81,7 @@ const Register = () => {
                       </div>
                     ) : null}
                     <input
-                      className="block w-full px-4 py-2 mt-2 text-white placeholder-gray-500 bg-white border rounded-xl dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-100 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                      className="block w-full px-4 py-2 mt-2 text-green placeholder-gray-500 bg-white border rounded-xl dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-100 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                       type="text"
                       placeholder="Enter Your Name"
                       aria-label="Email Address"
@@ -102,7 +102,7 @@ const Register = () => {
                       id="category"
                       onChange={signUpForm.handleChange}
                       value={signUpForm.values.category}
-                      className="block w-full px-4 py-2 mt-2 text-white placeholder-gray-500 bg-white border rounded-xl dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-100 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                      className="block w-full px-4 py-2 mt-2 text-green placeholder-gray-500 bg-white border rounded-xl dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-100 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                     >
                       <option value="">Select Your Course</option>
                       <option>Entry Level Courses</option>
@@ -123,7 +123,7 @@ const Register = () => {
                       </div>
                     ) : null}
                     <input
-                      className="block w-full px-4 py-2 mt-2 text-white placeholder-gray-500 bg-white border rounded-xl dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-100 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                      className="block w-full px-4 py-2 mt-2 text-green placeholder-gray-500 bg-white border rounded-xl dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-100 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                       type="email"
                       placeholder="Email Address"
                       aria-label="Email Address"
@@ -142,7 +142,7 @@ const Register = () => {
                       </div>
                     ) : null}
                     <input
-                      className="block w-full px-4 py-2 mt-2 text-white placeholder-gray-500 bg-white border rounded-xl dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-100 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                      className="block w-full px-4 py-2 mt-2 text-green placeholder-gray-500 bg-white border rounded-xl dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-100 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                       type="password"
                       placeholder="Enter Password"
                       aria-label="Password"
@@ -160,7 +160,7 @@ const Register = () => {
                       </div>
                     ) : null}
                     <input
-                      className="block w-full px-4 py-2 mt-2 text-white placeholder-gray-500 bg-white border rounded-xl dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-100 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                      className="block w-full px-4 py-2 mt-2 text-green placeholder-gray-500 bg-white border rounded-xl dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-100 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                       type="number"
                       placeholder="Enter Your Number"
                       aria-label="Password"
