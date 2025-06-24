@@ -213,35 +213,41 @@ const Page = () => {
       </nav>
 
       {/* Header Section */}
-      <header className="bg-white lg:py-12 p-12 font-[sans-serif] bg-[url('https://img.freepik.com/premium-photo/modern-workspace-white-background-top-view-flat-lay-style_641503-286873.jpg')] bg-cover bg-no-repeat">
-        <div className="grid min-h-[60vh] md:min-h-[40vh] sm:min-h-[20vh] w-full  place-items-stretch ">
-          <div className="container mx-auto px-4 text-center font-[sans-serif]">
-            <p className="antialiased leading-relaxed text-inherit inline-flex md:text-md lg:text-lg rounded-lg border-[1.5px] border-blue-gray-50 bg-indigo-50 py-1 lg:px-8 px-1 font-medium text-primary capitalize text-slate-800">
+      <header className="bg-white bg-[url('https://img.freepik.com/premium-photo/modern-workspace-white-background-top-view-flat-lay-style_641503-286873.jpg')] bg-cover bg-no-repeat font-[sans-serif] px-4 py-8 sm:py-10 lg:py-12">
+        <div className="grid min-h-[50vh] sm:min-h-[30vh] md:min-h-[40vh] lg:min-h-[60vh] w-full place-items-center">
+          <div className="w-full max-w-screen-xl text-center mx-auto">
+            <p className="inline-block antialiased leading-relaxed md:text-md lg:text-lg text-sm rounded-lg border-[1.5px] border-blue-gray-50 bg-indigo-50 py-1 px-3 sm:px-6 lg:px-8 font-medium text-primary text-slate-800 capitalize">
               " Har Click 👆 Par Nayi Shuruaat 💡 "
             </p>
-            <h1 className="block antialiased tracking-normal font-semibold text-blue-gray-900 mx-auto my-2 w-full leading-snug !text-2xl lg:max-w-3xl lg:!text-5xl text-sky-900">
+
+            <h1 className="block antialiased tracking-tight font-semibold text-sky-900 mx-auto my-4 leading-snug text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
               Welcome to{" "}
-              <span className="text-sky-900 leading-snug">
-                Aadityaa <br /> Computer's &
+              <span className="text-sky-900">
+                Aadityaa <br className="hidden sm:block" />
+                Computer's &
               </span>{" "}
-              <span className="leading-snug text-sky-900">Digital Hub</span>.
+              <span className="text-sky-900">Digital Hub</span>.
             </h1>
-            <p className="block  antialiased font-normal leading-relaxed text-inherit mx-auto w-full !text-gray-800 md:text-md  lg:text-lg text-base max-w-3xl ">
+
+            <p className="block antialiased font-normal leading-relaxed text-gray-800 mx-auto text-base sm:text-md md:text-lg max-w-3xl">
               Aadityaa Computer's and Digital Hub is a comprehensive tech center
-              which provides high-quality education in computer literacy,
+              providing high-quality education in computer literacy,
               programming, digital marketing, and IT skills.
-              <span className="">
+              <span>
                 {" "}
                 We are catering to individuals and businesses seeking to enhance
                 their digital capabilities.
               </span>
             </p>
-            <button
-              className="mt-8 rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-lg font-semibold text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none ml-2"
-              type="button"
-            >
-              <a href="/user/register">Register Now</a>
-            </button>
+
+            <div className="mt-6 sm:mt-8">
+              <a
+                href="/user/register"
+                className="inline-block rounded-md bg-slate-800 py-2 px-6 text-lg font-semibold text-white shadow-md transition-all hover:bg-slate-700 focus:bg-slate-700 active:bg-slate-700 disabled:pointer-events-none disabled:opacity-50"
+              >
+                Register Now
+              </a>
+            </div>
           </div>
         </div>
       </header>
