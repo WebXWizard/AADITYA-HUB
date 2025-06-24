@@ -55,7 +55,7 @@ const ContactUs = () => {
       <div className="mt-8 max-w-5xl max-lg:max-w-3xl mx-auto rounded-lg ">
         <div className="grid md:grid-cols-2 gap-8 lg:gap-16 lg:grid-cols-2 sm:p-8 p-4 font-[sans-serif] ">
           {/* Form Start */}
-          <div className="w-full max-w-sm mx-auto overflow-hidden  rounded-2xl shadow-2xl dark:bg-gray-800 border-white ">
+          <div className="w-full max-w-sm mx-auto overflow-hidden  rounded-2xl shadow-2xl  border-black bg-gray-200">
             <div className="px-8 py-12  ">
               <div className="flex justify-center mx-auto ">
                 <img
@@ -64,12 +64,12 @@ const ContactUs = () => {
                   alt=""
                 />
               </div>
-              <h3 className="mt-2 text-3xl font-medium text-center text-gray-600 dark:text-gray-200">
+              <h3 className="mt-2 text-3xl font-medium text-center text-gray-800 ">
                 Contact Us
               </h3>
               <form
                 onSubmit={contactForm.handleSubmit}
-                className="border-white "
+                className="border-black "
               >
                 <div className="w-full mt-4">
                   <label className="block mb-2 text-xl"> </label>
@@ -79,7 +79,7 @@ const ContactUs = () => {
                     </div>
                   ) : null}
                   <input
-                    className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-500 bg-white border rounded-lg  dark:border-gray-600 dark:placeholder-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                    className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-500 bg-gray-50 border rounded-lg border-gray-600  focus:border-blue-400  focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                     type="text"
                     placeholder="Your Name"
                     aria-label="Enter Your Name "
@@ -96,7 +96,7 @@ const ContactUs = () => {
                     </div>
                   ) : null}
                   <input
-                    className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-500 bg-white border rounded-lg  dark:border-gray-600 dark:placeholder-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                    className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-500 bg-white border rounded-lg border-gray-600  focus:border-blue-400  focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                     type="email"
                     placeholder="Email Address"
                     aria-label="Email Address"
@@ -113,7 +113,7 @@ const ContactUs = () => {
                     </div>
                   ) : null}
                   <input
-                    className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-500 bg-white border rounded-lg  dark:border-gray-600 dark:placeholder-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                    className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-500 bg-white border rounded-lg border-gray-600  focus:border-blue-400  focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                     type="number"
                     placeholder="Enter Your Number"
                     aria-label="Enter Your Number"
@@ -130,7 +130,7 @@ const ContactUs = () => {
                     </div>
                   ) : null}
                   <textarea
-                    className="block w-full px-4 py-2 mt-2 text-black placeholder-gray-500 bg-white border rounded-lg  dark:border-gray-600 dark:placeholder-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
+                    className="block w-full px-4 py-2 mt-2 text-gray-800 placeholder-gray-500 bg-white border rounded-lg border-gray-600  focus:border-blue-400  focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-blue-300"
                     type="text"
                     placeholder="Enter Message or Query "
                     aria-label="Details"
