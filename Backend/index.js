@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://aaditya-hub.vercel.app"],
+    origin: ["http://localhost:3000", "https://aaditya-hub.vercel.app", "https://www.aadityaacomputer.com"],
     methods: ["GET", "POST", "PUT", "DELETE", "AUTHENTICATE"],
     credentials: true,
   })
